@@ -1,0 +1,119 @@
+.Container {
+    margin: 0%;
+    padding: 0%;
+  width:100%;
+  height: 100vh ; 
+  background-color: black; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+nav ul li {
+display: inline-block;
+padding: 50px 32px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    list-style: none;
+    transition: 0.5s;
+}
+nav ul li a:hover {
+    color:darkorchid;
+}.logo{
+    color: white;
+font-size: 35px;
+}
+span{
+    color: #F900FD;
+}
+.butn-con{
+    background-color: #F900FD;
+    color: white;
+    text-decoration: none;
+    padding: 7px 32px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.butn-con:hover{
+    transform: scale(1,1);
+}
+.content{
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.content .img  img{
+    width: 40px;
+    overflow: hidden;
+}
+.content .text{
+    width: 100%;
+    color: white;
+}
+.content .text h2{
+    font-size: 23px;
+    color: white;
+    line-height: 65px;
+    letter-spacing: 2px;
+}
+.content .text h1{
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    color: white;
+}
+.content .text h7{
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: white;
+}
+.next {
+  text-decoration: none;
+  color: white;  
+  background-color: #F900FD;
+  padding: 7px 30px;
+  border-radius: 3opx;
+  box-shadow: 0px 0px 5px #000,0px 0px 8px #858585;
+  transition: 0.5s;
+}
+.next:hover{
+    background-color: transparent;
+    outline: none;
+    border: #F900FD 2px solid;
+}
+.img { 
+    width: 45%;
+    height: 80%;
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.cont{
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.cont .tex{
+    width: 100%;
+    color: white;
+}
+.cont .tex h7{
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: white;
+}
+.cont .tex h2{
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    color: #F900FD;
+}
+.i{
+    margin-left: 1%;
+}
